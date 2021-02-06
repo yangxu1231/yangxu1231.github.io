@@ -21,12 +21,12 @@
 .deng-box, 
 .deng-box1
 { 
-    display: none; 
+    display: block; 
 } 
 body.themespring .deng-box, 
 body.themespring .deng-box1
 { 
-    display: block; 
+    display: none; 
 } 
 /* 点击显示或者隐藏总样式结束 */
 
