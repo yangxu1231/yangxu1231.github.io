@@ -1,0 +1,35 @@
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>@media only screen and (min-width: 1124px) {
+    .nav-menu {
+        padding-right: 96px;
+    }
+}
+@media only screen and (max-width: 760px) {
+    .deng-box, .deng-box1 {
+        width: 40%;
+    }
+    .right {
+        float: left!important;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .right {
+        float: left!important;
+    }
+}
+
+#switchLantern1 { 
+    background: #dc8f03; 
+    width: 38px; height: 38px; 
+    display: block; position: fixed; 
+    border-radius: 50%; right: 15px; 
+    bottom: 125px; padding-top: 15px; 
+    margin-bottom: 0; z-index: 998; cursor: pointer; 
+} 
+
+.switchLantern2 { 
+    width: 38px; 
+    height: 38px; 
+    border-radius: 50%; 
+    position: absolute; 
+    bottom: 0px; 
+}

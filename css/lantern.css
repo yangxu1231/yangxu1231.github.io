@@ -16,6 +16,20 @@
         float: left!important;
     }
 }
+
+/* 点击显示或者隐藏总样式开始 */ 
+.deng-box, 
+.deng-box1
+{ 
+    display: none; 
+} 
+body.themespring .deng-box, 
+body.themespring .deng-box1
+{ 
+    display: block; 
+} 
+/* 点击显示或者隐藏总样式结束 */
+
 .deng-box {
     position: fixed;
     top: -40px;
@@ -173,3 +187,7 @@
             -webkit-transform: rotate(-10deg)
     }
 }
+
+
+
+
