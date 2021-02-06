@@ -19,13 +19,13 @@
 .deng-box {
     position: fixed;
     top: -40px;
-    left: 100px;
+    left: 15%;
     z-index: 999;
 }
 .deng-box1 {
     position: fixed;
     top: -30px;
-    left: 200px;
+    left: 20%;
     z-index: 999;
 }
 .deng-box1 .deng {
